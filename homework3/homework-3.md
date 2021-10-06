@@ -120,4 +120,4 @@ return_date DATE NOT NULL
 ```
 3. Database
 
-![Relationship](/Capture.PNG)
+![Relationship](Capture.PNG)
