@@ -8,9 +8,9 @@ CREATE DATABASE Library;
 ```sql
 CREATE TABLE book(
     id int PRIMARY KEY ,
-    title varchar(100) NOT NULL,
+    name varchar(100) NOT NULL,
   	page_number int, 
-    cartegory varchar(50),
+    category varchar(50),
     publish_year year,
     publisher varchar(50),
     status varchar(20),
@@ -120,4 +120,4 @@ return_date DATE NOT NULL
 ```
 3. Database
 
-![Relationship](Capture.PNG)
+![Relationship](diagram.PNG)
